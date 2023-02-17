@@ -20,7 +20,7 @@ e.g.
 }  
 ```
 ## Consider Sponsoring
-Help me maintain this project, please consider looking at the [FUNDING](./github/FUNDING.yml) file for more info.
+Help me maintain this project, please consider looking at the [FUNDING](./.github/FUNDING.yml) file for more info.
 
 ## Changelog
 
