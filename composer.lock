@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f37717e21d8abb636bcd39e5d81efeb0",
+    "content-hash": "8a83108ee58d341af0d507bb525d2fba",
     "packages": [
         {
             "name": "brick/math",
@@ -1711,16 +1711,16 @@
         },
         {
             "name": "mastashake08/laravel-openai-api",
-            "version": "dev-main",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mastashake08/laravel-openai-api.git",
-                "reference": "8e48fd71bb69b8ea108ccffc2a21adcf3bbc9b46"
+                "reference": "57b68447d89391838635ccf019fc55411cec00d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mastashake08/laravel-openai-api/zipball/8e48fd71bb69b8ea108ccffc2a21adcf3bbc9b46",
-                "reference": "8e48fd71bb69b8ea108ccffc2a21adcf3bbc9b46",
+                "url": "https://api.github.com/repos/mastashake08/laravel-openai-api/zipball/57b68447d89391838635ccf019fc55411cec00d2",
+                "reference": "57b68447d89391838635ccf019fc55411cec00d2",
                 "shasum": ""
             },
             "require": {
@@ -1736,7 +1736,6 @@
                 "pestphp/pest-plugin-laravel": "^1.1",
                 "phpunit/phpunit": "^9.5"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -1774,9 +1773,23 @@
             ],
             "support": {
                 "issues": "https://github.com/mastashake08/laravel-openai-api/issues",
-                "source": "https://github.com/mastashake08/laravel-openai-api/tree/main"
+                "source": "https://github.com/mastashake08/laravel-openai-api/tree/v1.1.0"
             },
-            "time": "2023-02-17T07:40:01+00:00"
+            "funding": [
+                {
+                    "url": "https://cash.me/$mastashake08",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/mastashake08",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/mastashake08",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2023-02-17T08:05:34+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -8101,9 +8114,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "mastashake08/laravel-openai-api": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
