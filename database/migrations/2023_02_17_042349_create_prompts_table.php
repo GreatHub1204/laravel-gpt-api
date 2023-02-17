@@ -13,6 +13,8 @@ return new class extends Migration
     {
         Schema::create('prompts', function (Blueprint $table) {
             $table->id();
+            $table->string('prompt_text');
+            $table->json('data');
             $table->timestamps();
         });
     }
