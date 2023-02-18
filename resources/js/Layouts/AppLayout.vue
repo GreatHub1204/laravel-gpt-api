@@ -51,6 +51,9 @@ const logout = () => {
                                 <NavLink :href="route('dashboard')" :active="route().current('dashboard')">
                                     Dashboard
                                 </NavLink>
+                                <NavLink :href="route('dashboard')" :active="route().current('documentation')">
+                                    API Documentation
+                                </NavLink>
                             </div>
                         </div>
 
@@ -144,6 +147,10 @@ const logout = () => {
 
                                         <DropdownLink v-if="$page.props.jetstream.hasApiFeatures" :href="route('api-tokens.index')">
                                             API Tokens
+                                        </DropdownLink>
+
+                                        <DropdownLink v-if="$page.props.jetstream.hasApiFeatures" :href="route('billing')">
+                                            Billing Portal
                                         </DropdownLink>
 
                                         <div class="border-t border-gray-200" />

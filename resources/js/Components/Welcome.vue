@@ -8,7 +8,7 @@ import ApplicationLogo from '@/Components/ApplicationLogo.vue';
             <ApplicationLogo class="block h-12 w-auto" />
 
             <h1 class="mt-8 text-2xl font-medium text-gray-900">
-                Welcome to your Jetstream application!
+                Consult the 0R1KUL!
             </h1>
 
             <p class="mt-6 text-gray-500 leading-relaxed">
@@ -31,7 +31,7 @@ import ApplicationLogo from '@/Components/ApplicationLogo.vue';
                 </div>
 
                 <p class="mt-4 text-gray-500 text-sm leading-relaxed">
-                    Laravel has wonderful documentation covering every aspect of the framework. Whether you're new to the framework or have previous experience, we recommend reading all of the documentation from beginning to end.
+                    Or1kul has wonderful documentation covering every aspect of the framework. Whether you're new to the framework or have previous experience, we recommend reading all of the documentation from beginning to end.
                 </p>
 
                 <p class="mt-4 text-sm">
