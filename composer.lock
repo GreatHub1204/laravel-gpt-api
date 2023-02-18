@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8a83108ee58d341af0d507bb525d2fba",
+    "content-hash": "074d8d2bb0e00172fba9f142f7998bf5",
     "packages": [
         {
             "name": "brick/math",
@@ -1711,16 +1711,16 @@
         },
         {
             "name": "mastashake08/laravel-openai-api",
-            "version": "1.1.0",
+            "version": "1.5.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mastashake08/laravel-openai-api.git",
-                "reference": "57b68447d89391838635ccf019fc55411cec00d2"
+                "reference": "03c6ed5ab75eae5918f5fd1c7062eb97444b0a18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mastashake08/laravel-openai-api/zipball/57b68447d89391838635ccf019fc55411cec00d2",
-                "reference": "57b68447d89391838635ccf019fc55411cec00d2",
+                "url": "https://api.github.com/repos/mastashake08/laravel-openai-api/zipball/03c6ed5ab75eae5918f5fd1c7062eb97444b0a18",
+                "reference": "03c6ed5ab75eae5918f5fd1c7062eb97444b0a18",
                 "shasum": ""
             },
             "require": {
@@ -1767,13 +1767,15 @@
             "description": "Add an OpenAI API easily into your projects.",
             "homepage": "https://github.com/mastashake08/laravel-openai-api",
             "keywords": [
+                "ChatGpt",
                 "laravel",
                 "laravel-openai-api",
-                "mastashake08"
+                "mastashake08",
+                "openai"
             ],
             "support": {
                 "issues": "https://github.com/mastashake08/laravel-openai-api/issues",
-                "source": "https://github.com/mastashake08/laravel-openai-api/tree/v1.1.0"
+                "source": "https://github.com/mastashake08/laravel-openai-api/tree/v1.5.7"
             },
             "funding": [
                 {
@@ -1789,7 +1791,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2023-02-17T08:05:34+00:00"
+            "time": "2023-02-18T06:25:55+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -6167,22 +6169,23 @@
         },
         {
             "name": "nunomaduro/collision",
-            "version": "v7.0.3",
+            "version": "v7.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nunomaduro/collision.git",
-                "reference": "fbf3c8a8ee08068bee7d81ee0cee5ddf032aaa84"
+                "reference": "d9205550494a8e6865ae59eaa3fd0f77f6c916fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nunomaduro/collision/zipball/fbf3c8a8ee08068bee7d81ee0cee5ddf032aaa84",
-                "reference": "fbf3c8a8ee08068bee7d81ee0cee5ddf032aaa84",
+                "url": "https://api.github.com/repos/nunomaduro/collision/zipball/d9205550494a8e6865ae59eaa3fd0f77f6c916fb",
+                "reference": "d9205550494a8e6865ae59eaa3fd0f77f6c916fb",
                 "shasum": ""
             },
             "require": {
                 "filp/whoops": "^2.14.6",
                 "nunomaduro/termwind": "^1.15.1",
                 "php": "^8.1.0",
+                "sebastian/environment": "^6.0.0",
                 "symfony/console": "^6.2.5"
             },
             "require-dev": {
@@ -6254,7 +6257,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2023-02-16T14:34:30+00:00"
+            "time": "2023-02-17T11:52:52+00:00"
         },
         {
             "name": "phar-io/manifest",
