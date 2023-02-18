@@ -24,6 +24,33 @@ Route::get('/', function () {
     ]);
 });
 
+Route::get('/pricing',  function () {
+    return Inertia::render('Pricing', [
+        'canLogin' => Route::has('login'),
+        'canRegister' => Route::has('register'),
+        'laravelVersion' => Application::VERSION,
+        'phpVersion' => PHP_VERSION,
+    ]);
+})->name('pricing');
+
+Route::get('/api-docs',  function () {
+    return Inertia::render('APIDocs', [
+        'canLogin' => Route::has('login'),
+        'canRegister' => Route::has('register'),
+        'laravelVersion' => Application::VERSION,
+        'phpVersion' => PHP_VERSION,
+    ]);
+})->name('docs');
+
+Route::get('/faqs',  function () {
+    return Inertia::render('FAQs', [
+        'canLogin' => Route::has('login'),
+        'canRegister' => Route::has('register'),
+        'laravelVersion' => Application::VERSION,
+        'phpVersion' => PHP_VERSION,
+    ]);
+})->name('faqs');
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
