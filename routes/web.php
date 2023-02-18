@@ -3,7 +3,7 @@
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
-
+use Illuminate\Http\Request;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -32,4 +32,14 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return Inertia::render('Dashboard');
     })->name('dashboard');
+
+    Route::get('/billing-portal', function (Request $request) {
+        $request->user()->createOrGetStripeCustomer();
+        return $request->user()->redirectToBillingPortal(route('subscribed'));
+    })->name('billing');
+
+    Route::get('/subscription-updated', function (Request $request) {
+        $request->user()->newSubscription('default', 'orikul-monthly')->add();
+        return redirect('/dashboard');
+    })->name('subscribed');
 });

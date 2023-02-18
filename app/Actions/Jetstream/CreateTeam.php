@@ -24,7 +24,6 @@ class CreateTeam implements CreatesTeams
         Validator::make($input, [
             'name' => ['required', 'string', 'max:255'],
         ])->validateWithBag('createTeam');
-
         AddingTeam::dispatch($user);
 
         $user->switchTeam($team = $user->ownedTeams()->create([

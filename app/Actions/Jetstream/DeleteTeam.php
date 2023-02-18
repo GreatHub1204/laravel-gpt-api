@@ -13,5 +13,6 @@ class DeleteTeam implements DeletesTeams
     public function delete(Team $team): void
     {
         $team->purge();
+        $team->owner->subscription('default', 'orikul-monthly-team')->decrementQuantity(1);
     }
 }

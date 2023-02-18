@@ -33,6 +33,12 @@ class AddTeamMember implements AddsTeamMembers
         );
 
         TeamMemberAdded::dispatch($team, $newTeamMember);
+        if($user->subscribed('default')) {
+          $user->newSubscription('default', 'orikul-monthly-team-user')->add();
+        } else {
+          $user->newSubscription('default', ['orikul-monthly','orikul-monthly-team-user'])->add();
+        }
+
     }
 
     /**
