@@ -2152,16 +2152,16 @@
         },
         {
             "name": "mastashake08/laravel-openai-api",
-            "version": "1.6.8",
+            "version": "1.6.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mastashake08/laravel-openai-api.git",
-                "reference": "95f9c4c403c2001bdf7820d6c49bfb73d47124ab"
+                "reference": "c8ebce0721533c11e31390c073b0335b67db3de5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mastashake08/laravel-openai-api/zipball/95f9c4c403c2001bdf7820d6c49bfb73d47124ab",
-                "reference": "95f9c4c403c2001bdf7820d6c49bfb73d47124ab",
+                "url": "https://api.github.com/repos/mastashake08/laravel-openai-api/zipball/c8ebce0721533c11e31390c073b0335b67db3de5",
+                "reference": "c8ebce0721533c11e31390c073b0335b67db3de5",
                 "shasum": ""
             },
             "require": {
@@ -2217,7 +2217,7 @@
             ],
             "support": {
                 "issues": "https://github.com/mastashake08/laravel-openai-api/issues",
-                "source": "https://github.com/mastashake08/laravel-openai-api/tree/v1.6.8"
+                "source": "https://github.com/mastashake08/laravel-openai-api/tree/v1.6.9"
             },
             "funding": [
                 {
@@ -2233,7 +2233,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2023-02-18T08:20:35+00:00"
+            "time": "2023-02-18T08:30:09+00:00"
         },
         {
             "name": "mobiledetect/mobiledetectlib",
