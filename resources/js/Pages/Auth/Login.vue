@@ -6,6 +6,7 @@ import Checkbox from '@/Components/Checkbox.vue';
 import InputError from '@/Components/InputError.vue';
 import InputLabel from '@/Components/InputLabel.vue';
 import PrimaryButton from '@/Components/PrimaryButton.vue';
+import SecondaryButton from '@/Components/SecondaryButton.vue';
 import TextInput from '@/Components/TextInput.vue';
 
 defineProps({
@@ -84,6 +85,11 @@ const submit = () => {
                 <PrimaryButton class="ml-4" :class="{ 'opacity-25': form.processing }" :disabled="form.processing">
                     Log in
                 </PrimaryButton>
+                <SecondaryButton class="ml-4">
+                  <a href="auth/redirect">
+                     Github
+                  </a>
+              </SecondaryButton>
             </div>
         </form>
     </AuthenticationCard>
