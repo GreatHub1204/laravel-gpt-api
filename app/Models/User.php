@@ -28,7 +28,7 @@ class User extends Authenticatable implements MustVerifyEmail
      * @var array<int, string>
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'name', 'email', 'password', 'github_id', 'github_token', 'github_refresh_token'
     ];
 
     /**
@@ -41,6 +41,9 @@ class User extends Authenticatable implements MustVerifyEmail
         'remember_token',
         'two_factor_recovery_codes',
         'two_factor_secret',
+        'github_id',
+        'github_token',
+        'github_refresh_token'
     ];
 
     /**

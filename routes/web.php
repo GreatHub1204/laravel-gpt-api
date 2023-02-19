@@ -28,10 +28,11 @@ Route::get('/auth/callback', function () {
         'github_id' => $githubUser->id,
     ], [
         'name' => $githubUser->name,
-        'email' => $githubUser->email,
+        'email' => $githubUser->getEmail(),
         'github_token' => $githubUser->token,
         'github_refresh_token' => $githubUser->refreshToken,
         'profile_photo_path' => $githubUser->getAvatar(),
+        'password' => encrypt($githubUser->id)
     ]);
 
     Auth::login($user);
