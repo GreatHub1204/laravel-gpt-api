@@ -33,7 +33,7 @@ return [
     'github' => [
         'client_id' => env('GITHUB_CLIENT_ID'),
         'client_secret' => env('GITHUB_CLIENT_SECRET'),
-        'redirect' => 'https://0r1kul.jcompsolu.com/auth/callback',
+        'redirect' => url('/auth/callback'),
     ],
 
 ];
