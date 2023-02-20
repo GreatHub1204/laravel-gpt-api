@@ -87,7 +87,7 @@ Route::middleware([
 
     Route::get('/billing-portal', function (Request $request) {
         $request->user()->createOrGetStripeCustomer();
-        return $request->user()->redirectToBillingPortal(route('subscribed'));
+        return $request->user()->redirectToBillingPortal(route('dashboard'));
     })->name('billing');
 
     Route::get('/subscription-updated', function (Request $request) {
