@@ -58,6 +58,15 @@ Route::get('/pricing',  function () {
     ]);
 })->name('pricing');
 
+Route::get('/generate',  function () {
+    return Inertia::render('Generate', [
+        'canLogin' => Route::has('login'),
+        'canRegister' => Route::has('register'),
+        'laravelVersion' => Application::VERSION,
+        'phpVersion' => PHP_VERSION,
+    ]);
+})->name('generate');
+
 Route::get('/api-docs',  function () {
     return Inertia::render('APIDocs', [
         'canLogin' => Route::has('login'),
