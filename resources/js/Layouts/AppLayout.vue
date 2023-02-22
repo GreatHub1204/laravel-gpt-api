@@ -30,7 +30,11 @@ const logout = () => {
 <template>
     <div>
         <Head :title="title" />
-
+          <meta property="og:title" content="0R1KUL" />
+          <meta property="og:description" content="Generate AI content. Consult the 0R1KUL" />
+          <meta property="og:image" content="/cover.png" />
+          <meta property="og:url" content="https://0r1kul.jcompsolu.com" />
+          <meta property="og:type" content="website" />
         <Banner />
 
         <div class="min-h-screen bg-gray-100">
