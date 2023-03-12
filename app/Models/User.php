@@ -11,14 +11,14 @@ use Laravel\Jetstream\HasProfilePhoto;
 use Laravel\Jetstream\HasTeams;
 use Laravel\Sanctum\HasApiTokens;
 use Laravel\Cashier\Billable;
-use Mastashake\LaravelOpenaiApi\Traits\HasPrompts;
+use Mastashake\LaravelOpenaiApi\Traits\HasPosts;
 class User extends Authenticatable implements MustVerifyEmail
 {
     use Billable;
     use HasApiTokens;
     use HasFactory;
     use HasProfilePhoto;
-    use HasPrompts;
+    use HasPosts;
     use HasTeams;
     use Notifiable;
     use TwoFactorAuthenticatable;
