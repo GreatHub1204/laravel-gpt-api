@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9b2a2e0ab81a16ef7e5dc20ddc35458b",
+    "content-hash": "c456af098f5504623623463484d8e0c5",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -2389,16 +2389,16 @@
         },
         {
             "name": "mastashake08/laravel-openai-api",
-            "version": "1.7.4",
+            "version": "1.7.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mastashake08/laravel-openai-api.git",
-                "reference": "5a1c62a1ae10c598a2055eb22d16a07938e1e7bb"
+                "reference": "9c1591770f8849c40976ca1024fa680cd1bd14b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mastashake08/laravel-openai-api/zipball/5a1c62a1ae10c598a2055eb22d16a07938e1e7bb",
-                "reference": "5a1c62a1ae10c598a2055eb22d16a07938e1e7bb",
+                "url": "https://api.github.com/repos/mastashake08/laravel-openai-api/zipball/9c1591770f8849c40976ca1024fa680cd1bd14b5",
+                "reference": "9c1591770f8849c40976ca1024fa680cd1bd14b5",
                 "shasum": ""
             },
             "require": {
@@ -2454,7 +2454,7 @@
             ],
             "support": {
                 "issues": "https://github.com/mastashake08/laravel-openai-api/issues",
-                "source": "https://github.com/mastashake08/laravel-openai-api/tree/v1.7.4"
+                "source": "https://github.com/mastashake08/laravel-openai-api/tree/1.7.7"
             },
             "funding": [
                 {
@@ -2470,7 +2470,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2023-02-22T04:55:16+00:00"
+            "time": "2023-03-12T09:17:42+00:00"
         },
         {
             "name": "mobiledetect/mobiledetectlib",
