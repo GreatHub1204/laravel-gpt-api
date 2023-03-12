@@ -18,7 +18,7 @@ use Laravel\Socialite\Facades\Socialite;
 |
 */
 Route::get('/auth/redirect', function () {
-    return Socialite::driver('github')->redirect();
+    return Socialite::driver('github')->stateless()->redirect();
 });
 
 Route::get('/auth/callback', function () {
