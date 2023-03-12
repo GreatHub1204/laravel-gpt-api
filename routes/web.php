@@ -22,7 +22,7 @@ Route::get('/auth/redirect', function () {
 });
 
 Route::get('/auth/callback', function () {
-    $githubUser = Socialite::driver('github')->user();
+    $githubUser = Socialite::driver('github')->stateless()->user();
 
     $user = User::updateOrCreate([
         'github_id' => $githubUser->id,

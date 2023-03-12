@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1f5db7686006099601a03c6832c75f8a",
+    "content-hash": "542b3e7cb4819ed950659f5e3d080b6c",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1291,16 +1291,16 @@
         },
         {
             "name": "laravel/cashier",
-            "version": "v14.8.1",
+            "version": "v14.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/cashier-stripe.git",
-                "reference": "02dd1ae72b53efd80d787ad3a51a14d9e436728c"
+                "reference": "b9f81921bf9c0b65c689cfab777ee5287e95061c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/cashier-stripe/zipball/02dd1ae72b53efd80d787ad3a51a14d9e436728c",
-                "reference": "02dd1ae72b53efd80d787ad3a51a14d9e436728c",
+                "url": "https://api.github.com/repos/laravel/cashier-stripe/zipball/b9f81921bf9c0b65c689cfab777ee5287e95061c",
+                "reference": "b9f81921bf9c0b65c689cfab777ee5287e95061c",
                 "shasum": ""
             },
             "require": {
@@ -1372,7 +1372,7 @@
                 "issues": "https://github.com/laravel/cashier/issues",
                 "source": "https://github.com/laravel/cashier"
             },
-            "time": "2023-02-14T16:45:08+00:00"
+            "time": "2023-02-21T15:49:32+00:00"
         },
         {
             "name": "laravel/fortify",
@@ -1439,16 +1439,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v10.0.3",
+            "version": "v10.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "0bd303853444de33f4fcb16d13bd7574030aa3d4"
+                "reference": "e06f97ec0ed16aefd689506c0a2b55858ba3832e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/0bd303853444de33f4fcb16d13bd7574030aa3d4",
-                "reference": "0bd303853444de33f4fcb16d13bd7574030aa3d4",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/e06f97ec0ed16aefd689506c0a2b55858ba3832e",
+                "reference": "e06f97ec0ed16aefd689506c0a2b55858ba3832e",
                 "shasum": ""
             },
             "require": {
@@ -1551,7 +1551,7 @@
                 "pda/pheanstalk": "^4.0",
                 "phpstan/phpdoc-parser": "^1.15",
                 "phpstan/phpstan": "^1.4.7",
-                "phpunit/phpunit": "^9.6.0 || ^10.0.7",
+                "phpunit/phpunit": "^10.0.7",
                 "predis/predis": "^2.0.2",
                 "symfony/cache": "^6.2",
                 "symfony/http-client": "^6.2.4"
@@ -1582,7 +1582,7 @@
                 "mockery/mockery": "Required to use mocking (^1.5.1).",
                 "nyholm/psr7": "Required to use PSR-7 bridging features (^1.2).",
                 "pda/pheanstalk": "Required to use the beanstalk queue driver (^4.0).",
-                "phpunit/phpunit": "Required to use assertions and run tests (^9.5.8).",
+                "phpunit/phpunit": "Required to use assertions and run tests (^9.5.8|^10.0.7).",
                 "predis/predis": "Required to use the predis connector (^2.0.2).",
                 "psr/http-message": "Required to allow Storage::put to accept a StreamInterface (^1.0).",
                 "pusher/pusher-php-server": "Required to use the Pusher broadcast driver (^6.0|^7.0).",
@@ -1635,7 +1635,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-02-16T22:03:27+00:00"
+            "time": "2023-02-21T18:20:26+00:00"
         },
         {
             "name": "laravel/jetstream",
@@ -1903,16 +1903,16 @@
         },
         {
             "name": "laravel/tinker",
-            "version": "v2.8.0",
+            "version": "v2.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/tinker.git",
-                "reference": "74d0b287cc4ae65d15c368dd697aae71d62a73ad"
+                "reference": "04a2d3bd0d650c0764f70bf49d1ee39393e4eb10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/tinker/zipball/74d0b287cc4ae65d15c368dd697aae71d62a73ad",
-                "reference": "74d0b287cc4ae65d15c368dd697aae71d62a73ad",
+                "url": "https://api.github.com/repos/laravel/tinker/zipball/04a2d3bd0d650c0764f70bf49d1ee39393e4eb10",
+                "reference": "04a2d3bd0d650c0764f70bf49d1ee39393e4eb10",
                 "shasum": ""
             },
             "require": {
@@ -1965,9 +1965,9 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel/tinker/issues",
-                "source": "https://github.com/laravel/tinker/tree/v2.8.0"
+                "source": "https://github.com/laravel/tinker/tree/v2.8.1"
             },
-            "time": "2023-01-10T18:03:30+00:00"
+            "time": "2023-02-15T16:40:09+00:00"
         },
         {
             "name": "league/commonmark",
@@ -2382,16 +2382,16 @@
         },
         {
             "name": "mastashake08/laravel-openai-api",
-            "version": "1.7.0",
+            "version": "1.7.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mastashake08/laravel-openai-api.git",
-                "reference": "62435cc3e7f4d1404529ea319bd316309194de45"
+                "reference": "5a1c62a1ae10c598a2055eb22d16a07938e1e7bb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mastashake08/laravel-openai-api/zipball/62435cc3e7f4d1404529ea319bd316309194de45",
-                "reference": "62435cc3e7f4d1404529ea319bd316309194de45",
+                "url": "https://api.github.com/repos/mastashake08/laravel-openai-api/zipball/5a1c62a1ae10c598a2055eb22d16a07938e1e7bb",
+                "reference": "5a1c62a1ae10c598a2055eb22d16a07938e1e7bb",
                 "shasum": ""
             },
             "require": {
@@ -2447,7 +2447,7 @@
             ],
             "support": {
                 "issues": "https://github.com/mastashake08/laravel-openai-api/issues",
-                "source": "https://github.com/mastashake08/laravel-openai-api/tree/v1.7.0"
+                "source": "https://github.com/mastashake08/laravel-openai-api/tree/v1.7.4"
             },
             "funding": [
                 {
@@ -2463,7 +2463,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2023-02-21T02:55:14+00:00"
+            "time": "2023-02-22T04:55:16+00:00"
         },
         {
             "name": "mobiledetect/mobiledetectlib",
@@ -4130,6 +4130,80 @@
             "time": "2023-01-12T18:13:24+00:00"
         },
         {
+            "name": "spatie/laravel-github-webhooks",
+            "version": "1.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-github-webhooks.git",
+                "reference": "b5c80833e8ccdf24ae8589c6de6e886ca10a3753"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-github-webhooks/zipball/b5c80833e8ccdf24ae8589c6de6e886ca10a3753",
+                "reference": "b5c80833e8ccdf24ae8589c6de6e886ca10a3753",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "^8.77|^9.0|^10.0",
+                "php": "^8.0",
+                "spatie/laravel-package-tools": "^1.9.0",
+                "spatie/laravel-webhook-client": "^3.1.0"
+            },
+            "require-dev": {
+                "nunomaduro/collision": "^5.5|^6.0|^7.0",
+                "orchestra/testbench": "^6.24|^7.0|^8.0",
+                "pestphp/pest": "^1.21",
+                "spatie/laravel-ray": "^1.29",
+                "spatie/pest-plugin-test-time": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Spatie\\GitHubWebhooks\\GitHubWebhooksServiceProvider"
+                    ],
+                    "aliases": {
+                        "GitHubWebhooks": "Spatie\\GitHubWebhooks\\GitHubWebhooksFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\GitHubWebhooks\\": "src",
+                    "Spatie\\GitHubWebhooks\\Database\\Factories\\": "database/factories"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Handle GitHub webhooks in a Laravel application",
+            "homepage": "https://github.com/spatie/laravel-github-webhooks",
+            "keywords": [
+                "laravel",
+                "laravel-github-webhooks",
+                "spatie"
+            ],
+            "support": {
+                "issues": "https://github.com/spatie/laravel-github-webhooks/issues",
+                "source": "https://github.com/spatie/laravel-github-webhooks/tree/1.2.2"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/Spatie",
+                    "type": "github"
+                }
+            ],
+            "time": "2023-02-20T06:52:24+00:00"
+        },
+        {
             "name": "spatie/laravel-package-tools",
             "version": "1.14.1",
             "source": {
@@ -4190,17 +4264,90 @@
             "time": "2023-01-27T15:33:45+00:00"
         },
         {
-            "name": "stripe/stripe-php",
-            "version": "v10.6.0",
+            "name": "spatie/laravel-webhook-client",
+            "version": "3.1.7",
             "source": {
                 "type": "git",
-                "url": "https://github.com/stripe/stripe-php.git",
-                "reference": "5fc46f43c743c715cb5edeb7be3383efb7b4bb2e"
+                "url": "https://github.com/spatie/laravel-webhook-client.git",
+                "reference": "52635a661be67dbcbfc7fdf736c543ab4429d0e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/5fc46f43c743c715cb5edeb7be3383efb7b4bb2e",
-                "reference": "5fc46f43c743c715cb5edeb7be3383efb7b4bb2e",
+                "url": "https://api.github.com/repos/spatie/laravel-webhook-client/zipball/52635a661be67dbcbfc7fdf736c543ab4429d0e0",
+                "reference": "52635a661be67dbcbfc7fdf736c543ab4429d0e0",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/bus": "^8.50|^9.0|^10.0",
+                "illuminate/database": "^8.50|^9.0|^10.0",
+                "illuminate/support": "^8.50|^9.0|^10.0",
+                "php": "^8.0",
+                "spatie/laravel-package-tools": "^1.11"
+            },
+            "require-dev": {
+                "nunomaduro/larastan": "^1.0.4|^2.2",
+                "orchestra/testbench": "^6.0|^7.0|^8.0",
+                "phpstan/extension-installer": "^1.0",
+                "phpstan/phpstan-deprecation-rules": "^1.0",
+                "phpstan/phpstan-phpunit": "^1.0",
+                "phpunit/phpunit": "^9.3",
+                "spatie/laravel-ray": "^1.24"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Spatie\\WebhookClient\\WebhookClientServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\WebhookClient\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Receive webhooks in Laravel apps",
+            "homepage": "https://github.com/spatie/laravel-webhook-client",
+            "keywords": [
+                "laravel-webhook-client",
+                "spatie"
+            ],
+            "support": {
+                "issues": "https://github.com/spatie/laravel-webhook-client/issues",
+                "source": "https://github.com/spatie/laravel-webhook-client/tree/3.1.7"
+            },
+            "funding": [
+                {
+                    "url": "https://spatie.be/open-source/support-us",
+                    "type": "custom"
+                }
+            ],
+            "time": "2023-01-17T10:35:34+00:00"
+        },
+        {
+            "name": "stripe/stripe-php",
+            "version": "v10.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stripe/stripe-php.git",
+                "reference": "7e9aca1e4cf703fcfec48e2db5bb69ac7a143f4b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/7e9aca1e4cf703fcfec48e2db5bb69ac7a143f4b",
+                "reference": "7e9aca1e4cf703fcfec48e2db5bb69ac7a143f4b",
                 "shasum": ""
             },
             "require": {
@@ -4246,9 +4393,9 @@
             ],
             "support": {
                 "issues": "https://github.com/stripe/stripe-php/issues",
-                "source": "https://github.com/stripe/stripe-php/tree/v10.6.0"
+                "source": "https://github.com/stripe/stripe-php/tree/v10.6.1"
             },
-            "time": "2023-02-16T23:01:54+00:00"
+            "time": "2023-02-21T16:50:16+00:00"
         },
         {
             "name": "symfony/console",
@@ -7062,16 +7209,16 @@
         },
         {
             "name": "laravel/pint",
-            "version": "v1.5.0",
+            "version": "v1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/pint.git",
-                "reference": "e0a8cef58b74662f27355be9cdea0e726bbac362"
+                "reference": "e48e3fadd7863d6b7d03464f5c4f211a828b890f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/pint/zipball/e0a8cef58b74662f27355be9cdea0e726bbac362",
-                "reference": "e0a8cef58b74662f27355be9cdea0e726bbac362",
+                "url": "https://api.github.com/repos/laravel/pint/zipball/e48e3fadd7863d6b7d03464f5c4f211a828b890f",
+                "reference": "e48e3fadd7863d6b7d03464f5c4f211a828b890f",
                 "shasum": ""
             },
             "require": {
@@ -7079,12 +7226,12 @@
                 "ext-mbstring": "*",
                 "ext-tokenizer": "*",
                 "ext-xml": "*",
-                "php": "^8.0"
+                "php": "^8.1.0"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^3.14.4",
-                "illuminate/view": "^9.51.0",
-                "laravel-zero/framework": "^9.2.0",
+                "illuminate/view": "^10.0.0",
+                "laravel-zero/framework": "^10.0.0",
                 "mockery/mockery": "^1.5.1",
                 "nunomaduro/larastan": "^2.4.0",
                 "nunomaduro/termwind": "^1.15.1",
@@ -7124,20 +7271,20 @@
                 "issues": "https://github.com/laravel/pint/issues",
                 "source": "https://github.com/laravel/pint"
             },
-            "time": "2023-02-14T16:31:02+00:00"
+            "time": "2023-02-21T15:44:57+00:00"
         },
         {
             "name": "laravel/sail",
-            "version": "v1.20.2",
+            "version": "v1.21.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/sail.git",
-                "reference": "5ae072b182b1efbec927409e8a3ce3b1078cc42c"
+                "reference": "758a914fc4da41f3f6ca5522c85902181b228bd1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sail/zipball/5ae072b182b1efbec927409e8a3ce3b1078cc42c",
-                "reference": "5ae072b182b1efbec927409e8a3ce3b1078cc42c",
+                "url": "https://api.github.com/repos/laravel/sail/zipball/758a914fc4da41f3f6ca5522c85902181b228bd1",
+                "reference": "758a914fc4da41f3f6ca5522c85902181b228bd1",
                 "shasum": ""
             },
             "require": {
@@ -7185,7 +7332,7 @@
                 "issues": "https://github.com/laravel/sail/issues",
                 "source": "https://github.com/laravel/sail"
             },
-            "time": "2023-02-08T20:22:21+00:00"
+            "time": "2023-02-16T19:16:27+00:00"
         },
         {
             "name": "mockery/mockery",
@@ -8849,16 +8996,16 @@
         },
         {
             "name": "spatie/backtrace",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/backtrace.git",
-                "reference": "4ee7d41aa5268107906ea8a4d9ceccde136dbd5b"
+                "reference": "7b34fee6c1ad45f8ee0498d17cd8ea9a076402c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/backtrace/zipball/4ee7d41aa5268107906ea8a4d9ceccde136dbd5b",
-                "reference": "4ee7d41aa5268107906ea8a4d9ceccde136dbd5b",
+                "url": "https://api.github.com/repos/spatie/backtrace/zipball/7b34fee6c1ad45f8ee0498d17cd8ea9a076402c1",
+                "reference": "7b34fee6c1ad45f8ee0498d17cd8ea9a076402c1",
                 "shasum": ""
             },
             "require": {
@@ -8894,8 +9041,7 @@
                 "spatie"
             ],
             "support": {
-                "issues": "https://github.com/spatie/backtrace/issues",
-                "source": "https://github.com/spatie/backtrace/tree/1.2.1"
+                "source": "https://github.com/spatie/backtrace/tree/1.2.2"
             },
             "funding": [
                 {
@@ -8907,7 +9053,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2021-11-09T10:57:15+00:00"
+            "time": "2023-02-21T08:29:12+00:00"
         },
         {
             "name": "spatie/flare-client-php",
