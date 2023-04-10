@@ -47,9 +47,9 @@ const submit = () => {
       )
     }
 
-    this.messages.push({
+    this.messages.push(
       {"role": "user", "content": form.prompt}
-    })
+    )
     data = {
       max_tokens: 1000,
       model: 'gpt-3.5-turbo',
@@ -68,9 +68,9 @@ const submit = () => {
        form.imageUrl = res.data.data.data.data[0].url
      } else if (form.type == 'chat') {
        form.resultText = res.data.data.data.choices[0].message.content
-       this.messages.push({
+       this.messages.push(
          {"role": "assistant", "content": form.resultText}
-       })
+       )
 
      } else {
        form.resultText = res.data.data.data.choices[0].text
