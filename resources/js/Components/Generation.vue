@@ -40,12 +40,15 @@ const submit = () => {
   if (form.type == 'image') {
     data = {prompt:form.prompt, type: form.type}
   } else if (form.type == 'chat'){
-    data = {messages: [
+    data = {
+      max_tokens: 1000,
+      model: 'gpt-3.5-turbo',
+      messages: [
       {role: "system", "content": form.system_role},
       {"role": "user", "content": form.prompt}
     ], type: form.type}
   } else {
-    data = {prompt:form.prompt, type: form.type, model: 'text-davinci-001', max_tokens: 1000, temperature: 0.9}
+    data = {prompt:form.prompt, type: form.type, model: 'gpt-3.5-turbo', max_tokens: 1000, temperature: 0.9}
   }
   form.processing = true
   form.reset('imageUrl')
