@@ -41,19 +41,19 @@ const submit = () => {
   if (form.type == 'image') {
     data = {prompt:form.prompt, type: form.type}
   } else if (form.type == 'chat'){
-    if (this.messages.length == 0) {
-      this.messages.push(
+    if (form.messages.length == 0) {
+      form.messages.push(
         {"role": "system", "content": form.system_role}
       )
     }
 
-    this.messages.push(
+    form.messages.push(
       {"role": "user", "content": form.prompt}
     )
     data = {
       max_tokens: 1000,
       model: 'gpt-3.5-turbo',
-      messages: this.messages,
+      messages: form.messages,
       type: form.type}
   } else {
     data = {prompt:form.prompt, type: form.type, model: 'text-davinci-001', max_tokens: 1000, temperature: 0.9}
@@ -68,7 +68,7 @@ const submit = () => {
        form.imageUrl = res.data.data.data.data[0].url
      } else if (form.type == 'chat') {
        form.resultText = res.data.data.data.choices[0].message.content
-       this.messages.push(
+       form.messages.push(
          {"role": "assistant", "content": form.resultText}
        )
 
