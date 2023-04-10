@@ -39,6 +39,11 @@ const submit = () => {
   let data = {}
   if (form.type == 'image') {
     data = {prompt:form.prompt, type: form.type}
+  } else if (form.type == 'chat'){
+    data = {messages: [
+      {role: "system", "content": form.system_role},
+      {"role": "user", "content": form.prompt}
+    ], type: form.type}
   } else {
     data = {prompt:form.prompt, type: form.type, model: 'text-davinci-001', max_tokens: 1000, temperature: 0.9}
   }
@@ -50,6 +55,8 @@ const submit = () => {
      form.processing = false
      if (form.type === 'image') {
        form.imageUrl = res.data.data.data.data[0].url
+     } else if (form.type == 'chat') {
+       form.resultText = res.data.data.data.choices[0].message.content
      } else {
        form.resultText = res.data.data.data.choices[0].text
      }
@@ -76,6 +83,7 @@ const submit = () => {
           <ul>
             <li> Text or image generation </li>
             <li> Prompt </li>
+            <li> Chat </li>
           </ul>
         </p>
       </template>
@@ -90,9 +98,21 @@ const submit = () => {
           <select id="type" v-model="form.type">
             <option value="image">Image</option>
             <option value="text">Text</option>
+            <option value="chat">Chat</option>
           </select>
         </div>
         <SectionBorder />
+        <div v-if="form.type == 'chat'">
+            <InputLabel for="role" value="What is my role?" />
+            <TextInput
+                id="prompt"
+                v-model="form.system_role"
+                type="text"
+                class="mt-1 block w-full"
+                required
+                autofocus
+            />
+        </div>
         <div>
             <InputLabel for="prompt" value="Prompt" />
             <TextInput
