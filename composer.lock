@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "faed547bd2e8dde52504cb7d867a15e8",
+    "content-hash": "bfe667b056f08d9d19e81dde8720735d",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -2386,16 +2386,16 @@
         },
         {
             "name": "mastashake08/laravel-openai-api",
-            "version": "1.7.8",
+            "version": "1.8.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mastashake08/laravel-openai-api.git",
-                "reference": "2e98207328d1d87c6a2855a692ab2a0ad36ad4b9"
+                "reference": "05fa8f525bed731f998b35c77b7ff7c5c81fb53d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mastashake08/laravel-openai-api/zipball/2e98207328d1d87c6a2855a692ab2a0ad36ad4b9",
-                "reference": "2e98207328d1d87c6a2855a692ab2a0ad36ad4b9",
+                "url": "https://api.github.com/repos/mastashake08/laravel-openai-api/zipball/05fa8f525bed731f998b35c77b7ff7c5c81fb53d",
+                "reference": "05fa8f525bed731f998b35c77b7ff7c5c81fb53d",
                 "shasum": ""
             },
             "require": {
@@ -2451,7 +2451,7 @@
             ],
             "support": {
                 "issues": "https://github.com/mastashake08/laravel-openai-api/issues",
-                "source": "https://github.com/mastashake08/laravel-openai-api/tree/v1.7.8"
+                "source": "https://github.com/mastashake08/laravel-openai-api/tree/v1.8.4"
             },
             "funding": [
                 {
@@ -2467,7 +2467,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2023-04-10T06:36:45+00:00"
+            "time": "2023-04-10T07:10:02+00:00"
         },
         {
             "name": "mobiledetect/mobiledetectlib",
