@@ -14,7 +14,8 @@ const form = useForm({
     type: 'image',
     processing: false,
     resultText: '',
-    imageUrl: ''
+    imageUrl: '',
+    messages: []
 });
 async function shareImage(url) {
   const response = await fetch(url);
@@ -40,15 +41,20 @@ const submit = () => {
   if (form.type == 'image') {
     data = {prompt:form.prompt, type: form.type}
   } else if (form.type == 'chat'){
+    if (this.messages.length == 0) {
+      {"role": "system", "content": form.system_role}
+    }
+
+    this.messages.push({
+      {"role": "user", "content": form.prompt}
+    })
     data = {
       max_tokens: 1000,
       model: 'gpt-3.5-turbo',
-      messages: [
-      {role: "system", "content": form.system_role},
-      {"role": "user", "content": form.prompt}
-    ], type: form.type}
+      messages: this.messages,
+      type: form.type}
   } else {
-    data = {prompt:form.prompt, type: form.type, model: 'gpt-3.5-turbo', max_tokens: 1000, temperature: 0.9}
+    data = {prompt:form.prompt, type: form.type, model: 'text-davinci-001', max_tokens: 1000, temperature: 0.9}
   }
   form.processing = true
   form.reset('imageUrl')
@@ -60,6 +66,10 @@ const submit = () => {
        form.imageUrl = res.data.data.data.data[0].url
      } else if (form.type == 'chat') {
        form.resultText = res.data.data.data.choices[0].message.content
+       this.messages.push({
+         {"role": "assistant", "content": form.resultText}
+       })
+
      } else {
        form.resultText = res.data.data.data.choices[0].text
      }
