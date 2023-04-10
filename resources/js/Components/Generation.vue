@@ -42,7 +42,9 @@ const submit = () => {
     data = {prompt:form.prompt, type: form.type}
   } else if (form.type == 'chat'){
     if (this.messages.length == 0) {
-      {"role": "system", "content": form.system_role}
+      this.messages.push(
+        {"role": "system", "content": form.system_role}
+      )
     }
 
     this.messages.push({
