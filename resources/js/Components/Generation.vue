@@ -8,7 +8,7 @@ import FormSection from '@/Components/FormSection.vue';
 import PrimaryButton from '@/Components/PrimaryButton.vue';
 import SectionBorder from '@/Components/SectionBorder.vue';
 import axios from 'axios';
-import { SpeechKit } from '@mastashake08/speech-kit'
+import SpeechKit  from '@mastashake08/speech-kit'
 const form = useForm({
     prompt: '',
     type: 'image',
