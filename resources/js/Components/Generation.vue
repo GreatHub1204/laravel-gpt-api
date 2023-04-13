@@ -16,7 +16,8 @@ const form = useForm({
     resultText: '',
     imageUrl: '',
     messages: [],
-    speech: false
+    speech: false,
+    rate: 0.85
 });
 async function shareImage(url) {
   const response = await fetch(url);
@@ -79,7 +80,7 @@ const submit = () => {
      }
 
      if (form.speech == true) {
-       const sk = new SpeechKit({rate: 0.85})
+       const sk = new SpeechKit({rate: form.rate})
        sk.speak(form.resultText)
      }
 
@@ -124,6 +125,10 @@ const submit = () => {
           </select>
           <input type="checkbox" v-model="form.speech" v-checked="form.speech">
           <label for="speech">TTS Enabled</label><br>
+          <div>
+            <input type="range" v-model="form.rate" name="volume">
+            <label for="volume">Speech Rate</label>
+          </div>
         </div>
         <SectionBorder />
         <div v-if="form.type == 'chat'">
