@@ -74,7 +74,7 @@ const submit = () => {
 
      } else {
        form.resultText = res.data.data.data.choices[0].text
-       const sk = new SpeechKit()
+       const sk = new SpeechKit({rate: 0.85})
        sk.speak(form.resultText)
      }
 
