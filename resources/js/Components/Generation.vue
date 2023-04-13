@@ -125,10 +125,10 @@ const submit = () => {
           </select>
           <input type="checkbox" v-model="form.speech" v-checked="form.speech">
           <label for="speech">TTS Enabled</label><br>
-          <div>
-            <input type="range" min="0" max="1" step="0.01" v-model="form.rate" name="volume">
-            <label for="volume">Speech Rate</label>
-          </div>
+          
+            <input type="range" min="0" max="1" step="0.01" v-model="form.rate" name="rate">
+            <label for="rate">Speech Rate</label>
+
         </div>
         <SectionBorder />
         <div v-if="form.type == 'chat'">
