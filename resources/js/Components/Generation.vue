@@ -126,7 +126,7 @@ const submit = () => {
           <input type="checkbox" v-model="form.speech" v-checked="form.speech">
           <label for="speech">TTS Enabled</label><br>
           <div>
-            <input type="range" v-model="form.rate" name="volume">
+            <input type="range" min="0" max="1" step="0.01" v-model="form.rate" name="volume">
             <label for="volume">Speech Rate</label>
           </div>
         </div>
